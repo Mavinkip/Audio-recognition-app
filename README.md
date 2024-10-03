@@ -29,11 +29,11 @@ cd sound-recognition-android
    // TensorFlow Lite dependencies
 
    
- implementation 'org.tensorflow:tensorflow-lite:2.10.0'
+ implementation ("org.tensorflow:tensorflow-lite:2.10.0")
 
-implementation 'org.tensorflow:tensorflow-lite-support:0.4.3'
+implementation ("org.tensorflow:tensorflow-lite-support:0.4.3")
 
- implementation 'org.tensorflow:tensorflow-lite-task-audio:0.4.2'
+ implementation ("org.tensorflow:tensorflow-lite-task-audio:0.4.2")
 
 
 3. **Permissions:** Ensures microphone permissions are correctly set up.
