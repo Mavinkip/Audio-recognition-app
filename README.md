@@ -27,6 +27,8 @@ cd sound-recognition-android
 1. **Dependencies:** Instructions on adding TensorFlow Lite
 
    // TensorFlow Lite dependencies
+
+   
  implementation 'org.tensorflow:tensorflow-lite:2.10.0'
 
 implementation 'org.tensorflow:tensorflow-lite-support:0.4.3'
